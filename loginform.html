@@ -6,76 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
         }
+
         .container {
             display: flex;
             height: 100vh;
             justify-content: center;
             align-items: center;
+            background-color: azure;
         }
-        .card{
-            width: 40%;
-            padding: 10%;
+
+        .card {
+            width: 60%;
+            height: 60vh;
+            padding: 7%;
             border: 2px solid black;
+            border-radius: 25px;
+            background-color: white;
 
         }
-        h1{
+
+        h1 {
             text-align: center;
         }
-        p{
+
+        p {
             text-align: center;
             margin-bottom: 5vh;
             padding-top: 4vh;
         }
-        button{
+
+        button {
             height: 6vh;
             width: 82%;
             border-radius: 50px;
-            
+
         }
-        input{
+
+        input {
             width: 80%;
             height: 7vh;
             padding: 2px 2px 2px 5px;
             margin: 5px 5px 5px 0px;
         }
-        label{
+
+        label {
             text-transform: uppercase;
             font-weight: bolder;
         }
-        button:hover{
+
+        button:hover {
             color: white;
             background-color: black;
         }
-     
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="card">
-        <h1>welcome back</h1>
-        <p>welcome back please enter your details</p>
-        <form action="">
-            <label for="">email</label>
-            <br>
-            <input type="email" name="" id="" placeholder="enter your email">
-            <br>
-            <br>
-            <label for="">password</label>
-            <br>
-            <input type="password" name="" id="" placeholder="enter your enter your password">
-            <br>
-             <br>
-            <button type="submit">login</button>
-            <br>
-            <br>
-            <button type="">sign in with google</button>
-        </form>
-        <p>don't have an account? <b>sign up for free</b></p>
-    </div>
+            <h1>welcome back</h1>
+            <p>welcome back please enter your details</p>
+            <form action="">
+                <label for="">email</label>
+                <br>
+                <input type="email" name="" id="" placeholder="enter your email">
+                <br>
+                <br>
+                <label for="">password</label>
+                <br>
+                <input type="password" name="" id="" placeholder="enter your enter your password">
+                <br>
+                <br>
+                <button type="submit">login</button>
+                <br>
+                <br>
+                <button type="">sign in with google</button>
+            </form>
+            <p>don't have an account? <b>sign up for free</b></p>
+        </div>
     </div>
 </body>
 

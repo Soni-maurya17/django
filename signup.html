@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .container{
+            height: 100vh;
+            background-color: lightgrey;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+           
+            
+
+        }
+        .bg{
+             background-image: url(pexels-jplenio-1103970.jpg);
+             background-size: cover;
+        }
+        img{
+            padding-left: 95px;
+            margin-bottom: 2px;
+        }
+        .card1{
+            height: 90vh;
+            width: 350px;
+            /* background-color: white; */
+            background-image: url(pexels-pixelcop-2680270.jpg);
+            opacity: 0.8;
+            background-size: cover;
+            border: 2px solid black;
+            border-radius: 50px;
+            padding-left: 20px; 
+            box-shadow: 10px 15px 15px grey;
+            /* padding-left: 120px; */
+           
+        }
+        .head{
+            /* text-align: center; */
+            padding-left: 110px;
+            margin-bottom: 10px;
+        }
+        /* .card2{
+            height: 90vh;
+            width: 350px;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 50px;
+           
+           
+        } */
+        
+        button{
+            width: 320px;
+            border-radius: 4px;
+            margin-bottom: 2px;
+            margin-top:4px ;
+        }
+       
+        label{
+            text-transform: uppercase;
+            font-weight: bolder;
+        }    
+        button:hover{
+            color: white;
+            background-color: lightgreen;
+            
+        }
+        /* input::placeholder{ 
+            color: maroon;
+            background-color: aqua;
+
+        }*/
+        a:visited{
+            color: purple;
+        }
+        a:hover{
+            color: blue;
+        }
+        p{
+            text-align: center;
+            margin-top: 20px;
+        }
+        b{
+            color: green;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container bg">
+        <div class=" card1">
+            <img src="pic11-removebg-preview.png" alt="" height="130px">
+            <h1 class="head">sign up</h1>
+            <form >
+                <label >Full Name:</label>
+                <input type="text" placeholder="enter your name"><br><br>
+                <label >Email:</label>
+                <input type="email" placeholder="enter your email"><br><br>
+                <label for="">Mobile number:</label>
+                <input type="number" placeholder="enter your number"><br><br>
+                <label for="">DOB:</label>
+                <input type="date" placeholder="00/00/0000"><br><br>
+                <label for="">Password:</label>
+                <input type="password" placeholder="make your phttp://127.0.0.1:5501/login.htmlassword"><br><br>
+                <label for="">Confirm Password</label>
+                <input type="password" placeholder="confirm your password"><br><br>
+                <input type="checkbox">I accept all terms and condition.
+                <button type="submit">Sign up</button>
+                <p>Already have an account?<a href="http://127.0.0.1:5500/page2.html"> <b>Sign in</b> </a></p>
+            </form>
+        </div>
+        <!-- <div class="card2">
+        <img src="pic12.png" alt="" height="150px">
+        </div> -->
+    </div>
+</body>
+</html>
